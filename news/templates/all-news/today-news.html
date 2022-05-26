@@ -1,0 +1,28 @@
+{% extends 'all-news/base.html'%}
+
+{% block content %}
+{{block.super}}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for news_item in news %}
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+        <img src="{{news_item.article_image.url}}" class="img-responsive" alt="Image" height="90vh">
+                <h5 class="card-title">{{ news_item.title }}</h5>
+                <p class="card-text">{{ news_item.post }}</p>
+                <p class="card-text"> Editor: {{ news_item.editor }}</p>
+                <a href="#" class="btn btn-info">ReadMore</a>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="row">
+        <h2 class="text-center">There No News Items</h2>
+    </div>
+    {% endfor %}
+    </div>
+    <footer>
+        
+        
+    </footer>
+{% endblock %}

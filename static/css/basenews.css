@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;200;300;400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h5 {
+    color: rgb(255, 85, 0);
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    opacity: 0.9;
+}
+h3 {
+    color: #f26f3d;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+
+body{
+    background-color: #124;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.news{
+    width: 30%;
+    height: 70vh;
+    background-color: gainsboro;
+    opacity: 0.6;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+.card{
+    background-color: #dfecf3de;
+    opacity: 0.9;
+    margin: 2%;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+a{
+    color: rgba(0, 2, 11, 0.896);
+    font-weight: bold;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+a:hover{
+    background-color: rgb(242, 250, 250);
+    border-radius: 8px;
+    color: #f26f3d;
+    font-weight: bold;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+.home{
+    color: white;
+    font-weight: bold;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    border-radius: 5px;
+    background-color: #124;
+}

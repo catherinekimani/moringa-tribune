@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;200;300;400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+.img{
+    background-image: url('/static/images/home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+.img p{
+    color: white;
+    font-family: 'Anek Gujarati',
+    sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    text-align: justify;
+}

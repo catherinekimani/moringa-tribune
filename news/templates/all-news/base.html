@@ -1,0 +1,42 @@
+{% load bootstrap5 %}
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    
+    {% if title %}
+    <title>Moringa Tribune - {{tribune}}</title>
+    {% else %}
+    <title> Moringa Tribune </title>
+    {% endif %}
+
+    <!-- styles css -->
+    {% block styles %}
+        {% bootstrap_css %}
+        <link rel="stylesheet" href="{% static 'css/basenews.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static  'fontawesome/css/all.min.css' %}" />
+    {% endblock %}
+</head>
+<body>
+    <!-- navbar -->
+    {% block navbar %}
+        {% include "navbar.html" %}
+    {% endblock %}
+    {% block content %}
+        <h3 class="text-center"> News for {{date|date:"l d-F Y"}}</h3>
+        <!-- l - day of the week -->
+        <!-- d for date -->
+        <!-- F for month -->
+        <!-- Y for year -->
+    {% endblock %}
+    <!-- script -->
+    {% block scripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {% bootstrap_javascript %}
+    {% endblock %}
+</body>
+</html>

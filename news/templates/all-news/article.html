@@ -1,0 +1,17 @@
+{%extends 'all-news/base.html'%}
+
+{% block content %}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <img src="{{article.article_image.url}}" class="img-responsive" alt="Image" height="90vh">
+                <h5 class="card-title">{{article.title}}</h5>
+                <p class="card-text">{{article.post}}</p>
+                <p>Posted {{article.pub_date|timesince}} by {{article.editor.first_name}}</p>
+                <a href="#" class="btn btn-info">ReadMore</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
