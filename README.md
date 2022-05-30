@@ -22,6 +22,7 @@
 <p> A web application built using django that displays various things happening at Moringa</p>
 
 ## Live Link
+https://kate-tribune.herokuapp.com/
 
 ## Installation
 
