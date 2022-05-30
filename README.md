@@ -2,6 +2,12 @@
 
 ##### By Catherine Kimani
 
+### HomePage
+![catherine](/static/images/Screenshot%20from%202022-05-30%2009-43-38.png)
+
+### Articles Page
+![catherine](/static/images/Screenshot%20from%202022-05-30%2009-43-45.png)
+
 ## Table of Content
 
 + [Description](#description)
